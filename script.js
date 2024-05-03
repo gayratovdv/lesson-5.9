@@ -18,7 +18,7 @@ document.getElementById("myForm").addEventListener("submit", function name(event
         document.body.appendChild(newElement);
     } else {
         const newElement = document.createElement("p");
-        const newText = document.createTextNode("Noto'g'ri ID yoki Password");
+        const newText = document.createTextNode("ID yoki Password Noto'g'ri");
         newElement.appendChild(newText);
         newElement.style.color = "red";
         newElement.style.fontSize = "24px";
